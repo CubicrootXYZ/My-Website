@@ -1,0 +1,176 @@
+@import "fonts.css";
+
+/* Defaults */
+
+a {
+    color: unset;
+}
+
+body {
+    background-color: #101010;
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Cairo';
+    color: #ffffff;
+}
+
+/* Headings */
+
+h1,
+h2,
+h3,
+h4,
+h4,
+h6 {
+    font-family: 'Anonymous Pro';
+}
+
+h2 {
+    font-size: 36pt;
+}
+
+/* Header */
+
+.header {
+    height: 100vh;
+    min-height: 35rem;
+    padding: 5rem 0 2rem 0;
+    margin: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    text-align: center;
+}
+
+.header-picture {
+    width: 17rem;
+    margin-bottom: 2rem;
+}
+
+/* Section */
+
+.section {
+    margin-top: 3rem;
+    padding-bottom: 4rem;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.section .title {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+/* Content */
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-centered {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+/* Pictures */
+
+.picture-frame {
+    overflow: hidden;
+}
+
+.picture-frame img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.round {
+    border-radius: 100%;
+}
+
+/* Borders */
+
+.b-white {
+    border: solid #ffffff;
+    border-width: 0.5rem;
+}
+
+/* Text */
+
+.t-medium {
+    font-size: 16pt;
+}
+
+.t-big {
+    font-size: 26pt;
+}
+
+.t-cli {
+    font-family: 'Anonymous Pro';
+}
+
+.t-accent {
+    color: #fc9727;
+}
+
+.t-icon {
+    vertical-align: middle;
+    font-size: 160%;
+    font-weight: bold;
+}
+
+.t-spaced {
+    line-height: 130%;
+}
+
+/* Spaces */
+
+.mr5 {
+    margin-right: 0.5rem;
+}
+
+.m5 {
+    margin: 0.5rem;
+}
+
+.mlr3 {
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+/* Colors */
+
+.bg-blue {
+    background-color: #4492df;
+}
+
+/* Animations */
+
+.blink {
+    animation: blink-animation 1.5s steps(2, start) infinite;
+}
+
+@keyframes blink-animation {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
