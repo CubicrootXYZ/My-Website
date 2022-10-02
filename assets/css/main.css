@@ -334,3 +334,34 @@ h3 {
         transform: translateX(0rem);
     }
 }
+
+/* Mobile */
+
+@media only screen and (device-width: 1280px),
+only screen and (max-width:1280px) {
+    .t-medium {
+        font-size: 32pt;
+    }
+
+    .t-big {
+        font-size: 40pt;
+    }
+
+    h2 {
+        font-size: 50pt;
+    }
+
+    h3 {
+        font-size: 42pt;
+    }
+
+    h4 {
+        font-size: 46pt;
+    }
+
+    .card {
+        font-size: 28pt;
+        min-width: 40rem;
+    }
+
+}
