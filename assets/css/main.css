@@ -237,6 +237,10 @@ h3 {
     margin-top: 5rem;
 }
 
+.pb0 {
+    padding-bottom: 0;
+}
+
 /* Colors */
 
 .bg-blue {
