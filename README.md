@@ -1,4 +1,4 @@
-# Cubicroot.xyz website
+# Website
 
 ## ❤️ Attribution
 
