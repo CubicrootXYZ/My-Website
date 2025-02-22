@@ -1,4 +1,4 @@
-FROM httpd:2.4
+FROM httpd:2.4.63
 COPY ./index.html /usr/local/apache2/htdocs/index.html
 COPY ./impressum.html /usr/local/apache2/htdocs/impressum.html
 COPY ./assets /usr/local/apache2/htdocs/assets
